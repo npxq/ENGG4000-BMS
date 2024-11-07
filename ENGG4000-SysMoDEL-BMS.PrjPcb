@@ -50,23 +50,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=BMS-lib.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AEMJEEZY
-
-[Document2]
 DocumentPath=ENGG4000-SysMoDEL-BMS.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,7 +66,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TDAEKUBR
 
-[Document3]
+[Document2]
 DocumentPath=BMS_AFE.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ARRCWNKH
 
-[Document4]
+[Document3]
 DocumentPath=BMS_AFE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CAZBTYIR
 
-[Document5]
+[Document4]
 DocumentPath=BMS_FETs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VDVKHVFA
 
-[Document6]
+[Document5]
 DocumentPath=BMS_MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DAYCQQJY
 
-[Document7]
+[Document6]
 DocumentPath=BMS_FETs.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EOIATYPD
 
-[Document8]
+[Document7]
 DocumentPath=BMS_MCU.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,6 +167,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VAJNFVTW
+
+[Document8]
+DocumentPath=ENGG4000-SysMoDEL-BMS.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WRZDOWES
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for ENGG4000-SysMoDEL-BMS\ENGG4000-SysMoDEL-BMS.EDF
@@ -1132,12 +1132,6 @@ SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=TI_Pre_Release.IntLib
-ComponentDesignItemID0=BQ7693003DBT
-ComponentSymbolReference0=BQ7693003DBT
-ComponentUpdate0=1
-ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1151,55 +1145,6 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Alternate Manufacturer
-ParameterUpdate0=1
-ParameterName1=Alternate PartNumber
-ParameterUpdate1=1
-ParameterName2=Comment
-ParameterUpdate2=1
-ParameterName3=Component Kind
-ParameterUpdate3=1
-ParameterName4=ComponentLink1Description
-ParameterUpdate4=1
-ParameterName5=ComponentLink1URL
-ParameterUpdate5=1
-ParameterName6=CompType
-ParameterUpdate6=1
-ParameterName7=Description
-ParameterUpdate7=1
-ParameterName8=LatestRevisionDate
-ParameterUpdate8=1
-ParameterName9=Library Reference
-ParameterUpdate9=1
-ParameterName10=Manufacturer
-ParameterUpdate10=1
-ParameterName11=MountType
-ParameterUpdate11=1
-ParameterName12=PackageReference
-ParameterUpdate12=1
-ParameterName13=PartNumber
-ParameterUpdate13=1
-ParameterName14=Publisher
-ParameterUpdate14=1
-ParameterName15=RoHS
-ParameterUpdate15=1
-ParameterName16=SymbolCreator
-ParameterUpdate16=1
-ParameterName17=SymbolVersion
-ParameterUpdate17=1
-ParameterName18=U/M
-ParameterUpdate18=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=DBT0030A_L
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=DBT0030A_M
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=DBT0030A_N
-ModelUpdate2=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
