@@ -29,7 +29,7 @@ This BMS design is based on the Texas Instruments reference project [TIDA-00449]
 ### Prerequisites
 - Install [Git](https://git-scm.com/) on your computer.
 - Set up an account on [GitHub](https://github.com/) if you haven’t already.
-- Import [Celestial Altium Library](https://github.com/CelestialAltium/Celestial-Library) into Altium.
+- Import [Celestial Altium Library](https://github.com/issus/altium-library) into Altium.
 
 ### 1. Clone the Repository
 To get a copy of the project onto your local machine, open a terminal (or Git Bash if on Windows) and use the following command:
@@ -111,7 +111,7 @@ git pull origin main
 This keeps your branch in sync with any updates made to the main branch by others.
 
 ## Libraries and Attributions
-This project utilizes components from the [Celestial Altium Library](https://github.com/CelestialAltium/Celestial-Library). Special thanks to the contributors of this open-source library for providing high-quality and accessible resources for Altium designers.
+This project utilizes components from the [Celestial Altium Library](https://github.com/issus/altium-library). Special thanks to the contributors of this open-source library for providing high-quality and accessible resources for Altium designers.
 
 ## License
 **[TBD]**
