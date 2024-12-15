@@ -25,16 +25,25 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=1
 AutoCrossReferences=1
+NewIndexingOfSheetSymbols=1
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
+ConstraintManagerFlow=0
+IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -58,7 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XICPMEKN
 
 [Document2]
-DocumentPath=C:\Users\Albert\Downloads\Components - 12.12.24 - 12.59\Components - 12.12.24 - 12.59.PcbLib
+DocumentPath=..\..\..\..\Albert\Downloads\Components - 12.12.24 - 12.59\Components - 12.12.24 - 12.59.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -75,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QIOKHYFA
 
 [Document3]
-DocumentPath=C:\Users\Albert\Downloads\M20_9760442 (1)\M20-9760442\HARWIN_M20-9760442.PcbLib
+DocumentPath=..\..\..\..\Albert\Downloads\M20_9760442 (1)\M20-9760442\HARWIN_M20-9760442.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -126,7 +135,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XAKEFIFJ
 
 [Document6]
-DocumentPath=C:\Users\Albert\Downloads\M20_9760442\M20-9760442\M20-9760442.SchLib
+DocumentPath=..\..\..\..\Albert\Downloads\M20_9760442\M20-9760442\M20-9760442.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -211,7 +220,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DAYCQQJY
 
 [Document11]
-DocumentPath=C:\Users\Albert\Downloads\Components - 12.12.24 - 12.59\Components - 12.12.24 - 12.59.SchLib
+DocumentPath=..\..\..\..\Albert\Downloads\Components - 12.12.24 - 12.59\Components - 12.12.24 - 12.59.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -314,7 +323,7 @@ TemplateFilename=Board Stack Report.XLT
 TemplateStoreRelative=-1
 PCB_PrintColor=1
 SCH_PrintColor=0
-PrintQuality=-4
+PrintQuality=-3
 SCH_ShowNoErc=-1
 SCH_ShowParameter=-1
 SCH_ShowProbes=-1
@@ -331,6 +340,8 @@ SCH_ExpandSheetNumber=0
 SCH_ExpandDocumentNumber=0
 SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
+Wir_PrintColor=0
+Ldr_PrintColor=0
 
 [Generic_EDE]
 OutputDir=
@@ -460,12 +471,22 @@ OutputName20=Telesis Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -538,6 +559,18 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType12=Harness Layout Drawing Print
+OutputName12=Harness Layout Drawing Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType13=Harness Wiring Diagram Print
+OutputName13=Harness Wiring Diagram Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -560,6 +593,11 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -681,6 +719,12 @@ OutputName8=Report Single Pin Nets
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
+OutputType9=Project History
+OutputName9=Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
@@ -693,102 +737,6 @@ OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=Text Print
-OutputName2=Text Print
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Text Print
-OutputName3=Text Print
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType4=Text Print
-OutputName4=Text Print
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Text Print
-OutputName5=Text Print
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType6=Text Print
-OutputName6=Text Print
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType7=Text Print
-OutputName7=Text Print
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=Text Print
-OutputName8=Text Print
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=Text Print
-OutputName9=Text Print
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=Text Print
-OutputName10=Text Print
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=Text Print
-OutputName11=Text Print
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Text Print
-OutputName12=Text Print
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType13=Text Print
-OutputName13=Text Print
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType14=Text Print
-OutputName14=Text Print
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType15=Text Print
-OutputName15=Text Print
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType16=Text Print
-OutputName16=Text Print
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType17=Text Print
-OutputName17=Text Print
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -894,6 +842,11 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1026,6 +979,37 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
+Type121=1
+Type122=1
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=1
+Type129=1
+Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
+Type137=1
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
 
 [Difference Levels]
 Type1=1
@@ -1096,6 +1080,19 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1223,6 +1220,35 @@ Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
+Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
+Type152=1
+Type153=1
+Type154=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1270,9 +1296,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=BMS_FETs.SchLib
-ComponentDesignItemID0=CSD19536KTT
-ComponentSymbolReference0=CSD19536KTT
+ComponentLibraryIdentifier0=BMS_MCU.SchLib
+ComponentDesignItemID0=LM7332MME/NOPB
+ComponentSymbolReference0=LM7332MME/NOPB
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1288,109 +1314,55 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Automotive
+ParameterName0=Code_IPC
 ParameterUpdate0=1
-ParameterName1=Category
+ParameterName1=Code_JEDEC
 ParameterUpdate1=1
-ParameterName2=Comment
+ParameterName2=Code_JEITA
 ParameterUpdate2=1
-ParameterName3=Component Kind
+ParameterName3=Comment
 ParameterUpdate3=1
-ParameterName4=componentlink2description
+ParameterName4=Component Kind
 ParameterUpdate4=1
-ParameterName5=componentlink2url
+ParameterName5=ComponentLink1Description
 ParameterUpdate5=1
-ParameterName6=Continuous Drain Current
+ParameterName6=ComponentLink1URL
 ParameterUpdate6=1
-ParameterName7=Depletion Mode
+ParameterName7=CompType
 ParameterUpdate7=1
 ParameterName8=Description
 ParameterUpdate8=1
-ParameterName9=Device Class L1
+ParameterName9=High-Reliability
 ParameterUpdate9=1
-ParameterName10=Device Class L2
+ParameterName10=Library Reference
 ParameterUpdate10=1
-ParameterName11=Device Class L3
+ParameterName11=manufacturer
 ParameterUpdate11=1
-ParameterName12=Digikey Description
+ParameterName12=Package Reference
 ParameterUpdate12=1
-ParameterName13=Drain to Source Breakdown Voltage
+ParameterName13=PackageDescription
 ParameterUpdate13=1
-ParameterName14=Drain to Source Resistance
+ParameterName14=PackageTopMarking
 ParameterUpdate14=1
-ParameterName15=Drain To Source Voltage
+ParameterName15=PartNumber
 ParameterUpdate15=1
-ParameterName16=Gate Charge At Vgs
+ParameterName16=PinCount
 ParameterUpdate16=1
-ParameterName17=Gate To Source Voltage
+ParameterName17=PowerWise
 ParameterUpdate17=1
-ParameterName18=Height
+ParameterName18=RoHS
 ParameterUpdate18=1
-ParameterName19=Input Capacitace At Vds
-ParameterUpdate19=1
-ParameterName20=Lead Free
-ParameterUpdate20=1
-ParameterName21=Library Reference
-ParameterUpdate21=1
-ParameterName22=manufacturer
-ParameterUpdate22=1
-ParameterName23=Manufacturer Part Number
-ParameterUpdate23=1
-ParameterName24=Max Forward Diode Voltage
-ParameterUpdate24=1
-ParameterName25=Max Junction Temp
-ParameterUpdate25=1
-ParameterName26=Mouser Description
-ParameterUpdate26=1
-ParameterName27=Number of Channels
-ParameterUpdate27=1
-ParameterName28=Number Of N Channels
-ParameterUpdate28=1
-ParameterName29=Octopart
-ParameterUpdate29=1
-ParameterName30=Package
-ParameterUpdate30=1
-ParameterName31=Power Dissipation
-ParameterUpdate31=1
-ParameterName32=Pulse Drain Current
-ParameterUpdate32=1
-ParameterName33=Reverse Recovery Charge
-ParameterUpdate33=1
-ParameterName34=Reverse Recovery Time
-ParameterUpdate34=1
-ParameterName35=RoHS
-ParameterUpdate35=1
-ParameterName36=Rthja Max
-ParameterUpdate36=1
-ParameterName37=Standoff Height
-ParameterUpdate37=1
-ParameterName38=Supplier 1
-ParameterUpdate38=1
-ParameterName39=Supplier Part Number 1
-ParameterUpdate39=1
-ParameterName40=Temperature
-ParameterUpdate40=1
-ParameterName41=Temperature Range High
-ParameterUpdate41=1
-ParameterName42=Temperature Range Low
-ParameterUpdate42=1
-ParameterName43=Threshold Vgs Max
-ParameterUpdate43=1
-ParameterName44=Threshold Vgs Min
-ParameterUpdate44=1
-ParameterName45=Transconductance
-ParameterUpdate45=1
-ParameterName46=Turn Off Delay Time
-ParameterUpdate46=1
-ParameterName47=Turn On Delay Time
-ParameterUpdate47=1
-ParameterName48=Typ Forward Diode Voltage
-ParameterUpdate48=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=FP-CSD19536KTT-MFG
+ModelName0=DGK0008A_L
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=DGK0008A_M
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=DGK0008A_N
+ModelUpdate2=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
