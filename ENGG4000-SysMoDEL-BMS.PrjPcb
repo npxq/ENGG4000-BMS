@@ -41,23 +41,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\CSD19536KTTT\TO254P1524X483-4N.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XICPMEKN
-
-[Document2]
 DocumentPath=ENGG4000-SysMoDEL-BMS.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -74,24 +57,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TDAEKUBR
 
-[Document3]
-DocumentPath=..\CSD19536KTTT\CSD19536KTTT.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XAKEFIFJ
-
-[Document4]
+[Document2]
 DocumentPath=BMS_AFE.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -108,7 +74,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ARRCWNKH
 
-[Document5]
+[Document3]
 DocumentPath=BMS_AFE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -125,7 +91,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CAZBTYIR
 
-[Document6]
+[Document4]
 DocumentPath=BMS_FETs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,7 +108,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VDVKHVFA
 
-[Document7]
+[Document5]
 DocumentPath=BMS_MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -159,7 +125,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DAYCQQJY
 
-[Document8]
+[Document6]
 DocumentPath=BMS_FETs.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -176,7 +142,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EOIATYPD
 
-[Document9]
+[Document7]
 DocumentPath=BMS_MCU.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -193,7 +159,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VAJNFVTW
 
-[Document10]
+[Document8]
 DocumentPath=[1]BMS_AFE.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1204,9 +1170,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=BMS_MCU.SchLib
-ComponentDesignItemID0=LM7332MME/NOPB
-ComponentSymbolReference0=LM7332MME/NOPB
+ComponentLibraryIdentifier0=BMS_FETs.SchLib
+ComponentDesignItemID0=STH315N10F7-6
+ComponentSymbolReference0=STH315N10F7-6
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1222,55 +1188,29 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Code_IPC
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Code_JEDEC
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Code_JEITA
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Comment
+ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=Component Kind
+ParameterName4=Mfr_Name
 ParameterUpdate4=1
-ParameterName5=ComponentLink1Description
+ParameterName5=RefDes
 ParameterUpdate5=1
-ParameterName6=ComponentLink1URL
+ParameterName6=Supplier 1
 ParameterUpdate6=1
-ParameterName7=CompType
+ParameterName7=Supplier Part Number 1
 ParameterUpdate7=1
-ParameterName8=Description
+ParameterName8=Type
 ParameterUpdate8=1
-ParameterName9=High-Reliability
-ParameterUpdate9=1
-ParameterName10=Library Reference
-ParameterUpdate10=1
-ParameterName11=manufacturer
-ParameterUpdate11=1
-ParameterName12=Package Reference
-ParameterUpdate12=1
-ParameterName13=PackageDescription
-ParameterUpdate13=1
-ParameterName14=PackageTopMarking
-ParameterUpdate14=1
-ParameterName15=PartNumber
-ParameterUpdate15=1
-ParameterName16=PinCount
-ParameterUpdate16=1
-ParameterName17=PowerWise
-ParameterUpdate17=1
-ParameterName18=RoHS
-ParameterUpdate18=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=DGK0008A_L
+ModelName0=H2PAK-6_STM
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=DGK0008A_M
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=DGK0008A_N
-ModelUpdate2=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
