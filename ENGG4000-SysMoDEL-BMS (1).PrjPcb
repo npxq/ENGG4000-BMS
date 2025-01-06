@@ -189,10 +189,14 @@ GenerateClassCluster=0
 DocumentUniqueId=BLLUKFWD
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for ENGG4000-SysMoDEL-BMS\Design Rule Check - [1]BMS_AFE.html
+DocumentPath=
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for ENGG4000-SysMoDEL-BMS\Design Rule Check - [1]BMS_AFE.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for ENGG4000-SysMoDEL-BMS\ENGG4000-SysMoDEL-BMS.NET
 DItemRevisionGUID=
 
@@ -372,22 +376,12 @@ OutputName20=Telesis Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
