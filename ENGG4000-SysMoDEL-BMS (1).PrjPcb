@@ -193,10 +193,14 @@ DocumentPath=
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for ENGG4000-SysMoDEL-BMS\Design Rule Check - [1]BMS_AFE.html
+DocumentPath=
 DItemRevisionGUID=
 
 [GeneratedDocument3]
+DocumentPath=Project Outputs for ENGG4000-SysMoDEL-BMS\Design Rule Check - [1]BMS_AFE.html
+DItemRevisionGUID=
+
+[GeneratedDocument4]
 DocumentPath=Project Outputs for ENGG4000-SysMoDEL-BMS\ENGG4000-SysMoDEL-BMS.NET
 DItemRevisionGUID=
 
