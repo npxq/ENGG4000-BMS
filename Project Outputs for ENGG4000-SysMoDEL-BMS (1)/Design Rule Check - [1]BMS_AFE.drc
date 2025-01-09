@@ -1,0 +1,47 @@
+Protel Design System Design Rule Check
+PCB File : D:\SCHOOLWORK\ENGG4000-BMS\[1]BMS_AFE.PcbDoc
+Date     : 1/6/2025
+Time     : 3:36:29 PM
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad MP1-1(6mm,6mm) on Multi-Layer And Polygon Region (591 hole(s)) Layer 1 Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Pad MP2-1(104mm,129mm) on Multi-Layer And Polygon Region (591 hole(s)) Layer 1 Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Pad MP3-1(6.1mm,129mm) on Multi-Layer And Polygon Region (591 hole(s)) Layer 1 Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Pad MP4-1(104mm,6mm) on Multi-Layer And Polygon Region (591 hole(s)) Layer 1 Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Pad U4-(69.5mm,84.6mm) on Multi-Layer And Polygon Region (12 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Pad U4-(69.5mm,84.6mm) on Multi-Layer And Polygon Region (16 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Pad U4-(69.5mm,84.6mm) on Multi-Layer And Polygon Region (591 hole(s)) Layer 1 Location : [X = 0mm][Y = 0mm]
+Rule Violations :7
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net PACK- Between Pad C24-1(95.7mm,43.6mm) on Top Layer And Pad E1-1(97.9mm,42.533mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net BATT- Between Pad E3-1(91.875mm,130.425mm) on Top Layer And Pad E2-1(95.1mm,130.375mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net BATT- Between Pad E4-1(84.175mm,130.65mm) on Top Layer And Pad E3-1(91.875mm,130.425mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net BATT- Between Pad E5-1(81.275mm,130.65mm) on Top Layer And Pad E4-1(84.175mm,130.65mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net BATT- Between Track (84.175mm,131.875mm)(85.225mm,131.875mm) on Top Layer And Pad E4-1(84.175mm,130.65mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net BATT- Between Pad E6-1(76.2mm,130.5mm) on Top Layer And Pad E5-1(81.275mm,130.65mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net BATT- Between Pad E7-1(73.55mm,130.533mm) on Top Layer And Pad E6-1(76.2mm,130.5mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net BATT- Between Track (67.9mm,121.396mm)(67.9mm,131.85mm) on Top Layer And Pad E7-1(73.55mm,130.533mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net BATT- Between Track (64.825mm,131.85mm)(66.1mm,131.85mm) on Top Layer And Track (67.9mm,121.396mm)(67.9mm,131.85mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net BATT- Between Track (84.175mm,131.875mm)(85.225mm,131.875mm) on Top Layer And Track (85.525mm,114.225mm)(85.525mm,131.875mm) on Bottom Layer 
+Rule Violations :10
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.15mm) (Max=2539.975mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 17
+Waived Violations : 0
+Time Elapsed        : 00:00:00
